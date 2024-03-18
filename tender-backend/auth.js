@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors()); // Use the cors middleware
 
-mongoose.connect('mongodb+srv://yashs3324_new:b4VoqOjYOHZjHZ3R@cluster0.tnfs0tz.mongodb.net/Tender_project', {
+mongoose.connect('', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
